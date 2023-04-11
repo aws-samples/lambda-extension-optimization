@@ -137,7 +137,7 @@ STACK_NAME="demo-ec-ext-stack"
 ../scripts/publish-src.sh
 ```
 
-4. Deploy the [solution stack](./app/lib/lambda-ec-ext-stack.ts.ts).
+4. Deploy the [solution stack](./app/lib/lambda-ec-ext-stack.ts).
 
 ```zsh
 cdk deploy $STACK_NAME --context lambda-memory=128 --profile $AWS_PROFILE
@@ -210,15 +210,15 @@ STACK_NAME="demo-ec-aot-ext-stack"
 3. Make sure you have [public.ecr.aws/sam/build-dotnet7](https://gallery.ecr.aws/sam/build-dotnet7) image.
 
 ```zsh
-docker images -a
-
 # search for public.ecr.aws/sam/build-dotnet7
+docker images -a
 ```
 
 4. If the [public.ecr.aws/sam/build-dotnet7](https://gallery.ecr.aws/sam/build-dotnet7) is not present, pull the image.
 
 ```zsh
-docker pull public.ecr.aws/sam/build-dotnet7:latest-x86_64 # make sure to select the right architecture
+# make sure to select the right architecture
+docker pull public.ecr.aws/sam/build-dotnet7:latest-x86_64 
 ```
 
 5. Build the source files.
@@ -227,7 +227,7 @@ docker pull public.ecr.aws/sam/build-dotnet7:latest-x86_64 # make sure to select
 ../scripts/publish-src-aot.sh
 ```
 
-6. Deploy the [solution stack](./app/lib/lambda-ec-ext-stack.ts.ts).
+6. Deploy the [solution stack](./app/lib/lambda-ec-ext-stack.ts).
 
 ```zsh
 cdk deploy $STACK_NAME --context lambda-memory=128 --profile $AWS_PROFILE
