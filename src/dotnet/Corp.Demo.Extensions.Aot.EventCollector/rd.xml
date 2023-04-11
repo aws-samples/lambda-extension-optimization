@@ -1,0 +1,6 @@
+<linker>
+  <assembly fullname="corp-demo-extensions-aot-event-collector" preserve="all" />
+  <assembly fullname="Corp.Demo.Extensions.Common" preserve="all" />
+  <assembly fullname="AWSSDK.Core" preserve="all" />
+  <assembly fullname="AWSSDK.S3" preserve="all" />
+</linker>

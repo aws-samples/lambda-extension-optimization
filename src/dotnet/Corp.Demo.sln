@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corp.Demo.Functions.HeaderCounter", "Corp.Demo.Functions.HeaderCounter\Corp.Demo.Functions.HeaderCounter.csproj", "{0EE1A665-8B42-4D3B-87D5-9B77A784BE3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corp.Demo.Extensions.Blank", "Corp.Demo.Extensions.Blank\Corp.Demo.Extensions.Blank.csproj", "{8DE25D1E-EBDD-43D7-89A7-34DD5216AD9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corp.Demo.Extensions.Common", "Corp.Demo.Extensions.Common\Corp.Demo.Extensions.Common.csproj", "{16AECDF6-9C5A-4935-8E7D-BF9328C28CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corp.Demo.Extensions.EventCollector", "Corp.Demo.Extensions.EventCollector\Corp.Demo.Extensions.EventCollector.csproj", "{DFCCF1F0-1362-4DA8-A588-DBDA187C89E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Corp.Demo.Extensions.Aot.EventCollector", "Corp.Demo.Extensions.Aot.EventCollector\Corp.Demo.Extensions.Aot.EventCollector.csproj", "{879FE29E-AC1F-4FFF-88E5-0362937D5488}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EE1A665-8B42-4D3B-87D5-9B77A784BE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE1A665-8B42-4D3B-87D5-9B77A784BE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE1A665-8B42-4D3B-87D5-9B77A784BE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE1A665-8B42-4D3B-87D5-9B77A784BE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE25D1E-EBDD-43D7-89A7-34DD5216AD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE25D1E-EBDD-43D7-89A7-34DD5216AD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE25D1E-EBDD-43D7-89A7-34DD5216AD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE25D1E-EBDD-43D7-89A7-34DD5216AD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AECDF6-9C5A-4935-8E7D-BF9328C28CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AECDF6-9C5A-4935-8E7D-BF9328C28CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AECDF6-9C5A-4935-8E7D-BF9328C28CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AECDF6-9C5A-4935-8E7D-BF9328C28CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFCCF1F0-1362-4DA8-A588-DBDA187C89E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCCF1F0-1362-4DA8-A588-DBDA187C89E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCCF1F0-1362-4DA8-A588-DBDA187C89E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCCF1F0-1362-4DA8-A588-DBDA187C89E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879FE29E-AC1F-4FFF-88E5-0362937D5488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879FE29E-AC1F-4FFF-88E5-0362937D5488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879FE29E-AC1F-4FFF-88E5-0362937D5488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879FE29E-AC1F-4FFF-88E5-0362937D5488}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

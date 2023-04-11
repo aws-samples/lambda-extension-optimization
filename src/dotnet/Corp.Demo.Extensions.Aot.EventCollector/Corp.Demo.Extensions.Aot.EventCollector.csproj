@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PublishAot>true</PublishAot>
+        <AssemblyName>corp-demo-extensions-aot-event-collector</AssemblyName>
+        <EventSourceSupport>false</EventSourceSupport>
+        <UseSystemResourceKeys>true</UseSystemResourceKeys>
+        <InvariantGlobalization>true</InvariantGlobalization>
+        <!-- StripSymbols tells the compiler to strip debugging symbols from the final executable if we're on Linux and put them into their own file. 
+This will greatly reduce the final executable's size.-->
+        <StripSymbols>true</StripSymbols>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Corp.Demo.Extensions.Common\Corp.Demo.Extensions.Common.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AWSSDK.S3" Version="3.7.103.36" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <TrimmerRootDescriptor Include="rd.xml" />
+    </ItemGroup>
+    
+</Project>
