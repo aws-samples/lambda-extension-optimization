@@ -1,5 +1,7 @@
 # Optimizing AWS Lambda extensions in C# and Rust
 
+The original content can be found under [Optimizing AWS Lambda extensions in C# and Rust](https://aws.amazon.com/blogs/compute/optimizing-aws-lambda-extensions-in-c-and-rust/).
+
 Customers use [AWS Lambda extensions](https://docs.aws.amazon.com/lambda/latest/dg/lambda-extensions.html) to integrate monitoring, observability, security, and governance tools with their Lambda functions. AWS, along with [AWS Lambda Ready Partners](https://aws.amazon.com/lambda/partners), like [Datadog](https://www.datadoghq.com/product/serverless-monitoring/), [Dynatrace](https://www.dynatrace.com/technologies/aws-monitoring/), [New Relic](https://newrelic.com/platform/serverless-aws-lambda), provides ready-to-run extensions. You can also develop your own extensions to address your specific needs.
 
 External Lambda extensions are designed as a companion process running in the same execution environment as the function code. That means that the Lambda function shares resources like memory, CPU, and disk I/O, with the extension. Improperly designed extensions can result in a performance degradation and extra costs.

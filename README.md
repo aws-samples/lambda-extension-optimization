@@ -1,5 +1,7 @@
 # Optimizing Lambda extensions performance
 
+Please refer to [Optimizing AWS Lambda extensions in C# and Rust](https://aws.amazon.com/blogs/compute/optimizing-aws-lambda-extensions-in-c-and-rust/) blog for more details.
+
 ## Prerequisites
 
 To follow the solution walkthrough, you will need to:
